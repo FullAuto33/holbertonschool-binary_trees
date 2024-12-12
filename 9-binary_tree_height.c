@@ -31,7 +31,7 @@ if (countleft > countright)
 {
 countfinaly = countleft;
 }
-if ( countright >= countleft)
+if (countright >= countleft)
 {
 countfinaly = countright;
 }
