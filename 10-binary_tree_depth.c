@@ -13,7 +13,7 @@ if (tree == NULL)
 {
 return (0);
 }
-return(depth(tree->parent) + 1);
+return (depth(tree->parent) + 1);
 }
 
 
@@ -29,5 +29,5 @@ if (tree == NULL)
 {
 return (0);
 }
-return(depth(tree) - 1);
+return (depth(tree) - 1);
 }
