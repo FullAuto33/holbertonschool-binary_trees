@@ -18,12 +18,12 @@ return (0);
 
 if (tree->left != NULL)
 {
-countleft = binary_tree_height(tree->left) + 1;
+countleft = binary_tree_height2(tree->left) + 1;
 }
 
 if (tree->right != NULL)
 {
-countright = binary_tree_height(tree->right) + 1;
+countright = binary_tree_height2(tree->right) + 1;
 }
 if (countleft > countright)
 {
