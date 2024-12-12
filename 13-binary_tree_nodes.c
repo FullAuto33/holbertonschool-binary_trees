@@ -1,5 +1,9 @@
 #include "binary_trees.h"
-
+/**
+ * binary_tree_nodes - count number of node
+ * @tree: pointer to tree
+ * Return: Always 0 (Success)
+ */
 size_t binary_tree_nodes(const binary_tree_t *tree)
 {
 int compteur = 0;
