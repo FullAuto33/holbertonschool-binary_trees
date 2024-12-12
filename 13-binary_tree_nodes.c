@@ -7,7 +7,7 @@ if (tree == NULL)
 {
 return (0);
 }
-if (tree->left or tree->right)
+if (tree->left || tree->right)
 {
 compteur = binary_tree_nodes(tree->left) + binary_tree_nodes(tree->right) + 1;
 }
