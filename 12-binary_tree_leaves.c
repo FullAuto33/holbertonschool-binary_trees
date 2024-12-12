@@ -1,5 +1,13 @@
 #include "binary_trees.h"
 
+
+/**
+ * binary_tree_leaves - number of leaf
+ * @tree: pointer of tree
+ *
+ * Return: Always 0 (Success)
+ */
+
 size_t binary_tree_leaves(const binary_tree_t *tree)
 {
 int compteur = 0;
