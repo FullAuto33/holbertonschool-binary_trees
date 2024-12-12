@@ -29,5 +29,5 @@ return (0);
     {
         countfinaly = countright;
     }
-    return (countfinaly)
+    return (countfinaly);
 }
