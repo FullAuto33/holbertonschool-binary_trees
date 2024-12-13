@@ -18,7 +18,7 @@ return (0);
 
 if (tree->left != NULL)
 {
-countleft = binary_tree_height2(tree->left) + 1;
+countleft += binary_tree_height2(tree->left) + 1;
 }
 
 if (tree->right != NULL)
@@ -29,8 +29,17 @@ if (countleft > countright)
 {
 return (countleft);
 }
+else
+{
 return (countright);
 }
+}
+
+/**
+ * binary_tree_balance - measure balance focator of tree
+ * @tree: pointer of tree
+ * Return: Always 0 (Success)
+ */
 
 int binary_tree_balance(const binary_tree_t *tree)
 {
